@@ -1,0 +1,10 @@
+export {default as Action } from '../../../public/Images/Action.jpg';
+export {default as Borgwar } from '../../../public/Images/borgward-hansa.jpg';
+export {default as Carnival } from '../../../public/Images/carnival.jpg';
+export {default as Chess } from '../../../public/Images/chess.jpg';
+export {default as Exhibition } from '../../../public/Images/exhibition.jpg';
+export {default as Man } from '../../../public/Images/man.jpg';
+export {default as Santorini } from '../../../public/Images/santorini.jpg';
+export {default as Seaplane } from '../../../public/Images/seaplane.jpg';
+export {default as Suit } from '../../../public/Images/suit.jpg';
+export {default as Wanderer } from '../../../public/Images/wanderer.jpg';

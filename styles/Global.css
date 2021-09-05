@@ -1,0 +1,38 @@
+@tailwind base;
+@layer base {
+  body {
+    @apply bg-[#0e0e0e];
+  }
+  .input-dark-bg {
+    @apply bg-[#121212];
+  }
+  .first-group.hover-children > * {
+    @apply hover:bg-[#303030] cursor-pointer p-2;
+  }
+  .second-group.hover-children > *:not(:last-child) {
+    @apply hover:bg-[#303030] cursor-pointer p-2;
+  }
+  .tab-active {
+    @apply bg-[#303030];
+  }
+  .scrollbar-style {
+    @apply overflow-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white;
+  }
+  .scrollbar-style::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    @apply border-8 rounded-lg;
+  }
+  .scrollbar-style::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    @apply border-8 rounded-lg;
+  }
+  .icon-text {
+    @apply text-white font-sans font-semibold text-base antialiased sm:subpixel-antialiased md:antialiased;
+  }
+  .text-default {
+    @apply font-sans font-semibold text-base antialiased sm:subpixel-antialiased md:antialiased;
+  }
+  .calculate-height {
+    height: calc(100% - 3.75rem);
+  }
+}
