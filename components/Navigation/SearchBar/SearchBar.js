@@ -9,10 +9,10 @@ export default function SearchBar() {
             type="text"
             id="search"
             placeholder="Search"
-            className="input-dark-bg w-full h-9 font-sans font-medium border-2 border-white placeholder-gray-500 placeholder-opacity-100 text-gray-100"
+            className="input-dark-bg w-full h-9 font-sans border border-search-dark placeholder-gray-500 text-gray-100"
             autoComplete="off"
           />
-          <div className="h-full bg-[#313131] w-20 grid place-items-center rounded-r cursor-pointer">
+          <div className="h-full bg-search-dark w-20 grid place-items-center rounded-r cursor-pointer">
             <SearchIcon></SearchIcon>
           </div>
         </section>

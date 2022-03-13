@@ -1,19 +1,21 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 @layer base {
   body {
-    @apply bg-[#0e0e0e];
+    @apply bg-body-dark;
   }
   .input-dark-bg {
-    @apply bg-[#121212];
+    @apply bg-input-dark;
   }
   .first-group.hover-children > * {
-    @apply hover:bg-[#303030] cursor-pointer p-2;
+    @apply hover:bg-hover-dark cursor-pointer p-2;
   }
   .second-group.hover-children > *:not(:last-child) {
-    @apply hover:bg-[#303030] cursor-pointer p-2;
+    @apply hover:bg-hover-dark cursor-pointer p-2;
   }
   .tab-active {
-    @apply bg-[#303030];
+    @apply bg-hover-dark;
   }
   .scrollbar-style {
     @apply overflow-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white;
