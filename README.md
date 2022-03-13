@@ -6,3 +6,7 @@ This is just an UI Clone, meaning that it does not have most of youtube's core f
 
 - NextJs ( React Framework )
 - Tailwind ( Utility-class CSS Framework)
+
+## Preview Below :
+
+[Youtube Clone](https://youtube-clone-wheat.vercel.app/)
