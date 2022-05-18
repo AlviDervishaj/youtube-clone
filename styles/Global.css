@@ -5,6 +5,10 @@
   body {
     @apply bg-body-dark;
   }
+  #__next,
+  body {
+    @apply relative min-h-screen max-h-full w-full;
+  }
   .input-dark-bg {
     @apply bg-input-dark;
   }
