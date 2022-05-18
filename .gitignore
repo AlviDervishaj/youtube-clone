@@ -32,3 +32,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# YARN
+/.yarn/
+.pnp.cjs
+.pnp.loader.mjs
+.yarnrc.yml
