@@ -3,7 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
-.pnp.js
+/.pnp.js
 
 # testing
 /coverage
@@ -32,9 +32,3 @@ yarn-error.log*
 
 # vercel
 .vercel
-
-# YARN
-/.yarn/
-.pnp.cjs
-.pnp.loader.mjs
-.yarnrc.yml
