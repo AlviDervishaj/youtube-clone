@@ -1,9 +1,13 @@
+// Next Components
 import Head from 'next/head';
+
+// Components
 import Navigation from '../components/Navigation/Navigation';
 import FooterNavigation from "../components/FooterNavigation/FooterNavigation"
+
 export default function Home() {
   return (
-    <main className="w-screen h-screen overflow-x-hidden relative overflow-y-visible">
+    <main className="w-full h-full overflow-x-hidden relative overflow-y-visible">
       {/* inject code into head part of html */}
       <Head>
         <title>Youtube Clone</title>

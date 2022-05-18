@@ -35,6 +35,6 @@
     @apply font-sans font-semibold text-base antialiased sm:subpixel-antialiased md:antialiased;
   }
   .calculate-height {
-    height: calc(100% - 3.75rem);
+    height: calc(100vh - 3.75rem);
   }
 }
